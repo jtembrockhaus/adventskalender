@@ -24,6 +24,18 @@ Um vorab zu testen, ob Dein Adventskalender auch funtioniert bzw. wie die Türch
 * Du kannst Deinen Kalender unten links via Tools zu GitHub exportieren.
 * Du kannst über den 'Share-Link' links oben unter Deinem Projektnamen andere zur Bearbeitung der Inhalte einladen. Der Kalender kann somit auch kollaborativ erstellt werden.
 
+## So mach ich's (Julius)
+
+```
+# install https-server package
+sudo npm install --global http-server
+
+#run the server
+http-server --proxy http://localhost:8080?
+```
+
+Und dann im Browser auf [http://127.0.0.1:8080](http://127.0.0.1:8080).
+
 ## Lizenz
 
 Der Kalender nutzt das jQuery Plugin 'Easytimer', das unter der Lizenz [GNU GENERAL PUBLIC LICENSE](https://www.gnu.org/licenses/gpl-2.0.html) veröffentlicht ist. Du findest es links in der Datei script.js. Das Phantom-Theme stammt von [HTML5UP](https://html5up.net) und kann mit Verlinkung offen weiter genutzt werden. Alle weiteren Inhalte sind im [eBildungslabor](https://ebildungslabor.de) erstellt und freigegeben unter [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) (= mach damit, was Du willst. Über einen Hinweis auf das eBildungslabor freue ich mich; rechtlich erforderlich ist das nicht)
