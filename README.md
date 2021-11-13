@@ -34,7 +34,7 @@ sudo npm install --global http-server
 http-server --proxy http://localhost:8080?
 ```
 
-Und dann im Browser auf <a href="http://127.0.0.1:8080" target="_blank">http://127.0.0.1:8080</a>.
+Und dann im Browser auf [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 ## Lizenz
 
